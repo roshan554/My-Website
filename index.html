@@ -1,0 +1,531 @@
+
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NaukriSetu - Government jobs, Maharashtra jobs, admit cards, results and recruitment updates in Hindi and English.">
+  <meta name="theme-color" content="#123b32">
+  <title>NaukriSetu – Latest Government Jobs, Admit Cards & Results</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <span>भारत में सरकारी और प्राइवेट नौकरी की जानकारी</span>
+      <span class="top-right">Hindi <b>+</b> English <span class="dot"></span> Career Updates</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-main">
+
+      <a class="brand" href="#home" aria-label="NaukriSetu Home">
+        <span class="brand-mark">
+          <span class="brand-n">N</span>
+          <span class="brand-check">✓</span>
+        </span>
+        <span class="brand-copy">
+          <strong>NaukriSetu</strong>
+          <small>Your Bridge to Better Career Opportunities</small>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <a class="header-link" href="#latest"><span class="live-dot"></span> Latest Updates</a>
+        <a class="header-button" href="#categories">Explore Jobs <span>→</span></a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+      </div>
+    </div>
+
+    <nav class="nav-bar" id="mainNav">
+      <div class="container nav-inner">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#latest">Latest Jobs</a>
+        <a class="nav-link" href="#categories">Govt. Jobs</a>
+        <a class="nav-link" href="#maharashtra">Maharashtra</a>
+        <a class="nav-link" href="#admit-cards">Admit Card</a>
+        <a class="nav-link" href="#results">Results</a>
+        <a class="nav-link" href="#answer-keys">Answer Key</a>
+        <a class="nav-link" href="#footer">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+
+    <section class="hero-section">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="eyebrow-line"></span>
+            CAREER UPDATES MADE SIMPLE
+          </div>
+
+          <h1>Find the right job.<br><em>Build your future.</em></h1>
+
+          <p class="hero-hindi">सरकारी नौकरी, प्राइवेट जॉब और परीक्षा अपडेट — सब एक ही जगह।</p>
+
+          <p class="hero-desc">
+            Explore verified recruitment information, exam updates, admit cards and results from one simple platform.
+          </p>
+
+          <div class="hero-search" role="search">
+            <span class="search-icon">⌕</span>
+            <input id="heroSearch" type="search" placeholder="Search jobs, qualification, department..." aria-label="Search jobs">
+            <button id="heroSearchBtn">Search Jobs <span>→</span></button>
+          </div>
+
+          <div class="hero-tags">
+            <span>Popular:</span>
+            <button data-quick="Maharashtra">Maharashtra</button>
+            <button data-quick="Railway">Railway</button>
+            <button data-quick="Banking">Banking</button>
+            <button data-quick="SSC">SSC</button>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Career opportunities illustration">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+
+          <div class="art-card art-card-main">
+            <div class="art-card-top">
+              <span class="art-mini-logo">NS</span>
+              <span class="art-pill">CAREER UPDATE</span>
+            </div>
+
+            <div class="art-title">
+              Your next<br>
+              <strong>opportunity</strong><br>
+              starts here.
+            </div>
+
+            <div class="art-lines"><i></i><i></i><i></i></div>
+
+            <div class="art-card-bottom">
+              <span>Explore opportunities</span>
+              <b>↗</b>
+            </div>
+          </div>
+
+          <div class="float-card float-card-a">
+            <span class="float-icon green">✓</span>
+            <span><b>Useful Updates</b><small>One trusted place</small></span>
+          </div>
+
+          <div class="float-card float-card-b">
+            <span class="float-icon orange">✦</span>
+            <span><b>Career Ready</b><small>Stay informed</small></span>
+          </div>
+
+          <div class="art-spark spark-a">✳</div>
+          <div class="art-spark spark-b">✦</div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="quick-stats container" aria-label="Website sections">
+
+      <a href="#latest" class="stat-item">
+        <span class="stat-icon stat-green">▤</span>
+        <span><b>Latest Jobs</b><small>नई भर्तियां</small></span>
+        <span class="stat-arrow">↗</span>
+      </a>
+
+      <a href="#admit-cards" class="stat-item">
+        <span class="stat-icon stat-blue">▣</span>
+        <span><b>Admit Cards</b><small>प्रवेश पत्र</small></span>
+        <span class="stat-arrow">↗</span>
+      </a>
+
+      <a href="#results" class="stat-item">
+        <span class="stat-icon stat-orange">▥</span>
+        <span><b>Exam Results</b><small>परीक्षा परिणाम</small></span>
+        <span class="stat-arrow">↗</span>
+      </a>
+
+      <a href="#answer-keys" class="stat-item">
+        <span class="stat-icon stat-purple">☷</span>
+        <span><b>Answer Keys</b><small>उत्तर कुंजी</small></span>
+        <span class="stat-arrow">↗</span>
+      </a>
+
+    </section>
+
+    <!-- LATEST JOBS -->
+
+    <section class="content-section container" id="latest">
+
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">FRESH OPPORTUNITIES</div>
+          <h2>Latest Government Jobs <span class="hindi-title">/ नवीनतम सरकारी नौकरियां</span></h2>
+          <p>Explore recent recruitment updates from across India.</p>
+        </div>
+
+        <a class="text-link" href="#latest">View all jobs <span>→</span></a>
+      </div>
+
+      <div class="ad-placeholder">
+        <span class="ad-label">ADVERTISEMENT</span>
+        <span>Advertisement space – responsive banner placement</span>
+      </div>
+
+      <div class="jobs-layout">
+
+        <div class="jobs-main">
+
+          <div class="jobs-toolbar">
+            <div class="filter-tabs" id="filterTabs">
+              <button class="filter-tab selected" data-filter="All">All Jobs</button>
+              <button class="filter-tab" data-filter="Central Government">Central Govt.</button>
+              <button class="filter-tab" data-filter="Maharashtra">Maharashtra</button>
+              <button class="filter-tab" data-filter="Banking">Banking</button>
+              <button class="filter-tab" data-filter="Railway">Railway</button>
+            </div>
+
+            <span class="result-count" id="resultCount">Loading jobs...</span>
+          </div>
+
+          <div class="job-list" id="jobList" aria-live="polite"></div>
+
+          <div class="empty-state" id="emptyState" hidden>
+            <strong>No matching jobs found.</strong>
+            <span>Try another keyword or category.</span>
+          </div>
+
+          <div class="center-action">
+            <button class="outline-button" id="showMoreBtn">
+              Explore all opportunities <span>→</span>
+            </button>
+          </div>
+
+        </div>
+
+        <aside class="sidebar">
+
+          <div class="sidebar-card search-card">
+            <h3>Find Your Opportunity</h3>
+            <p>Search by post, department or qualification.</p>
+
+            <div class="side-search">
+              <input id="sideSearch" type="search" placeholder="e.g. Clerk, Graduate">
+              <button id="sideSearchBtn" aria-label="Search">⌕</button>
+            </div>
+          </div>
+
+          <div class="sidebar-card">
+            <div class="sidebar-title">
+              <h3>Popular Categories</h3>
+              <span>＋</span>
+            </div>
+
+            <div class="category-list">
+              <button data-category="Maharashtra"><span class="cat-symbol">MH</span>Maharashtra Jobs <b>→</b></button>
+              <button data-category="Railway"><span class="cat-symbol">RR</span>Railway Jobs <b>→</b></button>
+              <button data-category="Banking"><span class="cat-symbol">BK</span>Banking Jobs <b>→</b></button>
+              <button data-category="SSC"><span class="cat-symbol">SSC</span>SSC & UPSC <b>→</b></button>
+              <button data-category="Teaching"><span class="cat-symbol">ED</span>Teaching Jobs <b>→</b></button>
+            </div>
+          </div>
+
+          <div class="sidebar-ad">
+            <span>ADVERTISEMENT</span>
+            <strong>Your Ad Here</strong>
+            <small>Sidebar ad placement</small>
+          </div>
+
+          <div class="sidebar-card important-card">
+            <h3>Important Links</h3>
+            <a href="https://www.ncs.gov.in/" target="_blank" rel="noopener">National Career Service ↗</a>
+            <a href="https://ssc.gov.in/" target="_blank" rel="noopener">Staff Selection Commission ↗</a>
+            <a href="https://upsc.gov.in/" target="_blank" rel="noopener">UPSC Official Website ↗</a>
+            <a href="https://mpsc.gov.in/" target="_blank" rel="noopener">MPSC Official Website ↗</a>
+          </div>
+
+        </aside>
+      </div>
+    </section>
+
+    <!-- JOB CATEGORIES -->
+
+    <section class="category-section" id="categories">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">BROWSE BY INTEREST</div>
+            <h2>Explore Job Categories <span class="hindi-title">/ नौकरी के क्षेत्र</span></h2>
+            <p>Choose a category to find relevant opportunities.</p>
+          </div>
+        </div>
+
+        <div class="category-grid">
+          <button class="category-card" data-category="Central Government">
+            <span class="category-icon icon-emerald">▦</span>
+            <b>Central Government</b>
+            <small>केंद्र सरकार की नौकरियां</small>
+            <span class="category-arrow">↗</span>
+          </button>
+
+          <button class="category-card" data-category="Maharashtra">
+            <span class="category-icon icon-blue">⌂</span>
+            <b>Maharashtra Jobs</b>
+            <small>महाराष्ट्र सरकारी भर्ती</small>
+            <span class="category-arrow">↗</span>
+          </button>
+
+          <button class="category-card" data-category="Railway">
+            <span class="category-icon icon-orange">▰</span>
+            <b>Railway Jobs</b>
+            <small>रेलवे भर्ती</small>
+            <span class="category-arrow">↗</span>
+          </button>
+
+          <button class="category-card" data-category="Banking">
+            <span class="category-icon icon-purple">▤</span>
+            <b>Banking Jobs</b>
+            <small>बैंकिंग क्षेत्र</small>
+            <span class="category-arrow">↗</span>
+          </button>
+
+          <button class="category-card" data-category="SSC">
+            <span class="category-icon icon-yellow">▣</span>
+            <b>SSC & UPSC</b>
+            <small>प्रतियोगी परीक्षाएं</small>
+            <span class="category-arrow">↗</span>
+          </button>
+
+          <button class="category-card" data-category="Teaching">
+            <span class="category-icon icon-pink">✎</span>
+            <b>Teaching Jobs</b>
+            <small>शिक्षक भर्ती</small>
+            <span class="category-arrow">↗</span>
+          </button>
+
+          <button class="category-card" data-category="Defence">
+            <span class="category-icon icon-slate">✧</span>
+            <b>Defence Jobs</b>
+            <small>रक्षा सेवाएं</small>
+            <span class="category-arrow">↗</span>
+          </button>
+
+          <button class="category-card" data-category="Private">
+            <span class="category-icon icon-teal">▱</span>
+            <b>Private Jobs</b>
+            <small>प्राइवेट नौकरियां</small>
+            <span class="category-arrow">↗</span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ADMIT CARDS, RESULTS AND ANSWER KEYS -->
+
+    <section class="updates-section container">
+
+      <div class="updates-column" id="admit-cards">
+        <div class="mini-section-head">
+          <div>
+            <div class="section-kicker">EXAM UPDATES</div>
+            <h2>Admit Cards <span>/ प्रवेश पत्र</span></h2>
+          </div>
+          <a href="#admit-cards">View all →</a>
+        </div>
+
+        <div id="admitCardList">
+          <p class="updates-loading">Loading admit cards...</p>
+        </div>
+      </div>
+
+      <div class="updates-column" id="results">
+        <div class="mini-section-head">
+          <div>
+            <div class="section-kicker">LATEST OUTCOMES</div>
+            <h2>Results <span>/ परीक्षा परिणाम</span></h2>
+          </div>
+          <a href="#results">View all →</a>
+        </div>
+
+        <div id="resultList">
+          <p class="updates-loading">Loading results...</p>
+        </div>
+      </div>
+
+      <div class="updates-column" id="answer-keys">
+        <div class="mini-section-head">
+          <div>
+            <div class="section-kicker">ANSWER RESOURCES</div>
+            <h2>Answer Keys <span>/ उत्तर कुंजी</span></h2>
+          </div>
+          <a href="#answer-keys">View all →</a>
+        </div>
+
+        <div id="answerKeyList">
+          <p class="updates-loading">Answer key updates will appear here.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- IMPORTANT NOTICE -->
+
+    <section class="notice-section container" id="maharashtra">
+      <div class="notice-inner">
+        <div class="notice-icon">i</div>
+
+        <div>
+          <b>Important information for job seekers</b>
+          <p>
+            NaukriSetu is an independent information platform. Always read the official recruitment notification and confirm eligibility, dates, fees and application links on the recruiting organization's website before applying.
+          </p>
+        </div>
+
+        <a href="#disclaimer" data-static="disclaimer">Read Disclaimer →</a>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER / LATEST UPDATES -->
+
+    <section class="newsletter-section">
+      <div class="container newsletter-inner">
+
+        <div>
+          <div class="section-kicker light-kicker">STAY INFORMED</div>
+          <h2>Opportunities don't wait.<br><em>Stay one step ahead.</em></h2>
+          <p>Visit NaukriSetu regularly for recruitment and exam updates.</p>
+        </div>
+
+        <a class="newsletter-button" href="#latest">
+          Explore Latest Updates <span>→</span>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer" id="footer">
+    <div class="container footer-grid">
+
+      <div class="footer-brand-col">
+        <a class="brand footer-brand" href="#home">
+          <span class="brand-mark">
+            <span class="brand-n">N</span>
+            <span class="brand-check">✓</span>
+          </span>
+
+          <span class="brand-copy">
+            <strong>NaukriSetu</strong>
+            <small>Your Bridge to Better Career Opportunities</small>
+          </span>
+        </a>
+
+        <p>Connecting job seekers with useful career and recruitment information across India.</p>
+        <div class="footer-language">हिंदी <span>+</span> English</div>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <a href="#latest">Latest Jobs</a>
+        <a href="#categories">Government Jobs</a>
+        <a href="#maharashtra">Maharashtra Jobs</a>
+        <a href="#admit-cards">Admit Cards</a>
+        <a href="#results">Results</a>
+      </div>
+
+      <div>
+        <h4>Information</h4>
+        <a href="#about" data-static="about">About Us</a>
+        <a href="#contact" data-static="contact">Contact Us</a>
+        <a href="#privacy" data-static="privacy">Privacy Policy</a>
+        <a href="#disclaimer" data-static="disclaimer">Disclaimer</a>
+        <a href="#terms" data-static="terms">Terms & Conditions</a>
+      </div>
+
+      <div class="footer-note">
+        <h4>Stay Updated</h4>
+        <p>Check official sources for the latest and accurate recruitment information.</p>
+        <a class="footer-outline" href="https://www.ncs.gov.in/" target="_blank" rel="noopener">Visit NCS Portal ↗</a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> NaukriSetu. All rights reserved.</span>
+      <span>Independent career information platform · Not a government website</span>
+    </div>
+  </footer>
+
+  <!-- JOB DETAILS MODAL -->
+
+  <div class="modal-backdrop" id="jobModal" hidden>
+    <section class="job-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+
+      <div class="modal-kicker">NAUKRISETU · JOB DETAILS</div>
+
+      <h2 id="modalTitle"></h2>
+      <p id="modalOrg" class="modal-org"></p>
+
+      <div class="modal-badges" id="modalBadges"></div>
+
+      <div class="modal-warning">
+        कृपया आवेदन करने से पहले संबंधित विभाग की आधिकारिक अधिसूचना अवश्य पढ़ें।
+      </div>
+
+      <div class="modal-details" id="modalDetails"></div>
+
+      <div class="modal-actions">
+        <a id="modalOfficial" class="primary-button" href="#" target="_blank" rel="noopener">
+          Visit official source ↗
+        </a>
+
+        <button class="outline-button" id="modalDone">Close</button>
+      </div>
+
+    </section>
+  </div>
+
+  <!-- STATIC INFORMATION MODAL -->
+
+  <div class="static-modal-backdrop" id="staticModal" hidden>
+    <section class="static-modal" role="dialog" aria-modal="true">
+
+      <button class="modal-close" id="staticClose" aria-label="Close">×</button>
+
+      <div class="section-kicker">NAUKRISETU INFORMATION</div>
+
+      <h2 id="staticTitle"></h2>
+
+      <div id="staticBody"></div>
+
+    </section>
+  </div>
+
+  <button id="backToTop" class="back-top" aria-label="Back to top">↑</button>
+
+  <!-- SUPABASE CONNECTION -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <!-- WEBSITE JAVASCRIPT -->
+
+  <script src="app.js"></script>
+
+</body>
+</html>
